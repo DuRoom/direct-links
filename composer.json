@@ -1,0 +1,36 @@
+{
+    "name": "duroom/direct-links",
+    "description": "Adds some direct links and composer auto-fill capabilities.",
+    "type": "duroom-extension",
+    "keywords": ["discussion", "features", "links"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NKDuy",
+            "email": "kn145660@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/DuRoom/direct-links/issues",
+        "source": "https://github.com/DuRoom/direct-links"
+    },
+    "require": {
+        "duroom/core": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DuRoom\\DirectLinks\\": "src/"
+        }
+    },
+    "extra": {
+        "duroom-extension": {
+            "title": "Direct Links",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-link",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}
